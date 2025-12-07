@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mediciones Biomédicas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+
+<header class="header-main">
+    <h1>Mediciones en Tiempo Real</h1>
+</header>
+
+<main class="container">
+
+    <div class="sensor-card" id="card_mq3">
+        <div class="icon">🍺</div>
+        <div>
+            <h2>Alcohol (MQ-3)</h2>
+            <p class="value" id="mq3Value">--</p>
+        </div>
+    </div>
+
+    <div class="sensor-card" id="card_temp">
+        <div class="icon">🌡️</div>
+        <div>
+            <h2>Temperatura Corporal</h2>
+            <p class="value" id="tempValue">-- °C</p>
+        </div>
+    </div>
+
+    <div class="sensor-card" id="card_spo2">
+        <div class="icon">🩸</div>
+        <div>
+            <h2>Oxigenación (SpO₂)</h2>
+            <p class="value" id="spo2Value">-- %</p>
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>

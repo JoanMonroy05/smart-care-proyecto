@@ -1,0 +1,95 @@
+/* FUENTE Y BASE ----------------------------------------------------------- */
+body {
+    margin: 0;
+    background: #F3F4F6;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #111827;
+}
+
+/* HEADER ------------------------------------------------------------------ */
+.header-main {
+    background: #2563EB;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.header-main h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.85;
+    margin-top: 4px;
+}
+
+/* CONTENEDORES ----------------------------------------------------------- */
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* TARJETAS DE MENÚ ------------------------------------------------------- */
+.menu-card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.menu-card:hover {
+    transform: scale(1.03);
+}
+
+.menu-card .icon {
+    font-size: 32px;
+}
+
+/* TARJETAS DE SENSORES --------------------------------------------------- */
+.sensor-card {
+    background: white;
+    padding: 18px;
+    border-radius: 16px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.10);
+    transition: 0.3s ease;
+}
+
+.sensor-card .icon {
+    background: #DBEAFE;
+    color: #2563EB;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sensor-card .value {
+    font-size: 26px;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* EFECTO AL ACTUALIZAR -------------------------------------------------- */
+.updated {
+    background: #E0F2FE !important;
+    transition: background 0.4s ease;
+}
